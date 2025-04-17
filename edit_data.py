@@ -67,6 +67,7 @@ def encounteredLossesMapping(input):
 
 # Maps subjective risk-taking behavior
 def riskEncounterFrequencyMapping(input):
+    if input == "Velmi často (vyhledávám riziko aktivně)": return 4
     if input == "Často (vyhledávám nové příležitosti, i když jsou rizikové)": return 3
     if input == "Občas (pokud mám pocit, že riziko stojí za to)": return 2
     if input == "Zřídka (jen pokud je to nezbytné)": return 1
